@@ -1,0 +1,15 @@
+7550a_stream
+
+This utility serves to stream data over a serial port to a HP 7550A plotter.
+Other HP plotters may also work. It implements flow control by querying
+available buffer space in the plotter periodically using HP device control
+commands.
+
+This project's main GitHub page is available at
+	https://github.com/RevelationSpace/7550a_stream
+
+There is a page for the specific plotter this utility was written for at
+	https://revspace.nl/RevelationSpace/RevPlotter
+
+HP 7550A documentation is available at
+	http://www.hpmuseum.net/exhibit.php?hwdoc=75
